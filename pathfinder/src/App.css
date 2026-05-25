@@ -101,7 +101,23 @@ body {
 .resources h2,
 .mission h2,
 .about h2 {
+  color: #040e68;
+}
+.section-intro {
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+.card-category {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #1f3b2d;
 }
 
+.resource-card strong {
+  display: block;
+  margin-top: 18px;
+  line-height: 1.5;
+}
 }
