@@ -37,6 +37,12 @@ This project was built to strengthen my frontend development skills while creati
 - Backend/database integration
 
 ---
+## Preview
+
+![App Screenshot](<img width="559" height="720" alt="image" src="https://github.com/user-attachments/assets/bd0ea1a8-0d07-4757-90a5-440c5ceb6362" />
+)
+![App Screenshot](<img width="555" height="356" alt="image" src="https://github.com/user-attachments/assets/e37ac95c-e1b5-4de5-8b6a-246f9485b238" />
+)
 
 ## Author
 
