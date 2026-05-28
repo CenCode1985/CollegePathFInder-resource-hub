@@ -65,54 +65,50 @@ export const resources = [
   },
 
   {
-    id: 3,
-    name: "Morgan State",
-    links: [
-      { label: "Financial Aid", url: "https://www.morgan.edu/financial-aid" },
-      { label: "Career Center", url: "https://www.morgan.edu/center-for-career-development" },
-      { label: "Scholarships", url: "https://www.morgan.edu/financial-aid/scholarships" },
-    ],
-  },
-
-  {
-    id: 4,
-    name: "AACC",
-    links: [
-      { label: "Financial Aid", url: "https://www.aacc.edu/resources/financial-aid/" },
-      { label: "Career Services", url: "https://www.aacc.edu/resources/career-services/" },
-      { label: "Scholarships", url: "https://www.aacc.edu/resources/financial-aid/scholarships/" },
-    ],
-  },
-
-  {
-    id: 5,
-    name: "CCBC",
-    links: [
-      { label: "Financial Aid", url: "https://www.ccbcmd.edu/Costs-and-Paying-for-College/Financial-Aid.aspx" },
-      { label: "Career Services", url: "https://www.ccbcmd.edu/Resources-for-Students/Career-Services.aspx" },
-      { label: "Scholarships", url: "https://www.ccbcmd.edu/Costs-and-Paying-for-College/Scholarships.aspx" },
-    ],
-  },
-
-  {
-    id: 6,
-    name: "BCCC",
-    links: [
-      { label: "Financial Aid", url: "https://www.bccc.edu/Page/1336" },
-      { label: "Career Services", url: "https://www.bccc.edu/Page/1749" },
-      { label: "Scholarships", url: "https://www.bccc.edu/Page/1340" },
-    ],
-  },
-
-  {
-    id: 7,
-    name: "Coppin State",
-    links: [
-      { label: "Financial Aid", url: "https://www.coppin.edu/financial-aid" },
-      { label: "Career Services", url: "https://www.coppin.edu/career-services" },
-      { label: "Scholarships", url: "https://www.coppin.edu/admissions-aid/scholarships" },
-    ],
-  },
+  id: 3,
+  name: "Morgan State",
+  links: [
+    { label: "Financial Aid", url: "https://www.morgan.edu/financialaid" },
+    { label: "Career Center", url: "https://www.morgan.edu/contactus" },
+    { label: "Scholarships", url: "https://www.morgan.edu/office-of-financial-aid/types-of-aid" },
+  ],
+},
+{
+  id: 4,
+  name: "AACC",
+  links: [
+    { label: "Financial Aid", url: "https://www.aacc.edu/costs-and-paying/credit-costs-and-payment/financial-aid-and-scholarships/" },
+    { label: "Career Services", url: "https://www.aacc.edu/resources/career-services/" },
+    { label: "Scholarships", url: "https://www.aacc.edu/costs-and-paying/credit-costs-and-payment/financial-aid-and-scholarships/aacc-institutional-scholarships/" },
+  ],
+},
+{
+  id: 5,
+  name: "CCBC",
+  links: [
+    { label: "Financial Aid", url: "https://www.ccbcmd.edu/Paying-for-College/Financial-Aid/index.html" },
+    { label: "Career Services", url: "https://www.ccbcmd.edu/Resources-for-Students/Career-Services.aspx" },
+    { label: "Scholarships", url: "https://www.ccbcmd.edu/Paying-for-College/Financial-Aid/Scholarships-Grants/index.html" },
+  ],
+},
+{
+  id: 6,
+  name: "BCCC",
+  links: [
+    { label: "Financial Aid", url: "https://www.bccc.edu/paying-for-college/financial-aid-scholarships" },
+    { label: "Career Services", url: "https://www.bccc.edu/current-students/career-services" },
+    { label: "Scholarships", url: "https://www.bccc.edu/paying-for-college/financial-aid-scholarships" },
+  ],
+},
+{
+  id: 7,
+  name: "Coppin State",
+  links: [
+    { label: "Financial Aid", url: "https://www.coppin.edu/admissions-aid/financial-aid" },
+    { label: "Career Services", url: "https://www.coppin.edu/student-life/career-services" },
+    { label: "Scholarships", url: "https://www.coppin.edu/admissions-aid/scholarships" },
+  ],
+},
 
   {
     id: 8,
