@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Yellow-powered female anime character">
+  <defs>
+    <linearGradient id="bgYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8df"/>
+      <stop offset="100%" stop-color="#ffe8a3"/>
+    </linearGradient>
+    <radialGradient id="auraYellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd96b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffb700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" rx="32" fill="url(#bgYellow)"/>
+  <circle cx="400" cy="250" r="180" fill="url(#auraYellow)"/>
+  <circle cx="400" cy="250" r="120" fill="#fff7cc" opacity="0.6"/>
+  <path d="M285 360c25-95 50-135 115-135 65 0 90 40 115 135" fill="#ffcc33"/>
+  <circle cx="340" cy="215" r="38" fill="#ffd7b5"/>
+  <circle cx="460" cy="215" r="38" fill="#ffd7b5"/>
+  <circle cx="340" cy="215" r="12" fill="#2d2d2d"/>
+  <circle cx="460" cy="215" r="12" fill="#2d2d2d"/>
+  <path d="M325 195c20-40 43-58 75-58 32 0 55 18 75 58" fill="#ffb703"/>
+  <path d="M310 176c20-55 54-82 100-82s80 27 100 82" fill="#ffca28"/>
+  <path d="M308 280c15 30 35 45 92 45s77-15 92-45" fill="#2d2d2d" opacity="0.95"/>
+  <path d="M330 302c15 16 28 24 44 24 19 0 34-8 49-24" fill="#fff" opacity="0.9"/>
+  <path d="M315 148l-24 18 20-38" fill="#ffcc33"/>
+  <path d="M485 148l24 18-20-38" fill="#ffcc33"/>
+  <circle cx="612" cy="158" r="8" fill="#ffb700"/>
+  <circle cx="642" cy="118" r="6" fill="#ffd54f"/>
+  <circle cx="178" cy="132" r="7" fill="#ffb700"/>
+  <path d="M210 330l40 18 10-42" fill="#ffca28"/>
+  <path d="M590 330l-40 18-10-42" fill="#ffca28"/>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#8a5d00">Yellow Power-Up</text>
+</svg>

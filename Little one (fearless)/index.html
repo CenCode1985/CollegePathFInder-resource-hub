@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hi Little One</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="greeting">Little Brain Teaser</h1>
+      <p class="subtitle">Can you find the color that matches the picture?</p>
+
+      <section class="teaser-card">
+        <div id="targetDisplay" class="target-display" aria-live="polite">
+          <div id="targetIcon" class="target-icon">🍎</div>
+          <p id="targetPrompt" class="target-prompt">Find the red apple.</p>
+        </div>
+
+        <div class="fan-buttons">
+          <button id="redBtn" class="big-btn red">Red</button>
+          <button id="yellowBtn" class="big-btn yellow">Yellow</button>
+          <button id="blueBtn" class="big-btn blue">Blue</button>
+          <button id="greenBtn" class="big-btn green">Green</button>
+        </div>
+      </section>
+
+      <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-content">
+          <button id="closeBtn" class="close">×</button>
+          <img id="powerGif" src="assets/powerup.svg" alt="Powering up" />
+          <p id="credit" class="credit"></p>
+          <p id="feedback" class="message">Be fearless.</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Blue-powered female anime character">
+  <defs>
+    <linearGradient id="bgBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef8ff"/>
+      <stop offset="100%" stop-color="#cdeeff"/>
+    </linearGradient>
+    <radialGradient id="auraBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#70cfff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2a8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" rx="32" fill="url(#bgBlue)"/>
+  <circle cx="400" cy="250" r="180" fill="url(#auraBlue)"/>
+  <circle cx="400" cy="250" r="120" fill="#f4fbff" opacity="0.6"/>
+  <path d="M285 360c22-95 48-135 115-135 67 0 93 40 115 135" fill="#4ba3ff"/>
+  <circle cx="340" cy="215" r="38" fill="#ffd7b5"/>
+  <circle cx="460" cy="215" r="38" fill="#ffd7b5"/>
+  <circle cx="340" cy="215" r="12" fill="#2d2d2d"/>
+  <circle cx="460" cy="215" r="12" fill="#2d2d2d"/>
+  <path d="M325 195c18-40 42-58 75-58 33 0 57 18 75 58" fill="#3f7cff"/>
+  <path d="M310 176c20-55 54-82 100-82s80 27 100 82" fill="#64b5ff"/>
+  <path d="M308 280c15 30 35 45 92 45s77-15 92-45" fill="#2d2d2d" opacity="0.95"/>
+  <path d="M330 302c15 16 28 24 44 24 19 0 34-8 49-24" fill="#fff" opacity="0.9"/>
+  <path d="M313 150l-24 16 20-36" fill="#74c0ff"/>
+  <path d="M487 150l24 16-20-36" fill="#74c0ff"/>
+  <circle cx="620" cy="166" r="8" fill="#4ba3ff"/>
+  <circle cx="646" cy="124" r="6" fill="#8ed1ff"/>
+  <circle cx="172" cy="136" r="7" fill="#4ba3ff"/>
+  <path d="M605 320l30-12 10 28" fill="#74c0ff"/>
+  <path d="M195 320l-30-12-10 28" fill="#74c0ff"/>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#145ba3">Blue Power-Up</text>
+</svg>

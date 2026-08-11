@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6e0" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#ffd9a6" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#ff9a9e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6b6b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="energy" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7b2" />
+      <stop offset="50%" stop-color="#ffb37a" />
+      <stop offset="100%" stop-color="#ff6b6b" />
+    </linearGradient>
+    <style>
+      .aura { transform-origin: 300px 190px; animation: auraPulse 1.2s ease-in-out infinite; }
+      .spike { transform-origin: 300px 190px; animation: spikePop 1.4s ease-in-out infinite; }
+      .bolt { opacity:0; animation: boltFlash 1.6s steps(1,end) infinite; }
+      .caption{font:700 28px system-ui, -apple-system, 'Segoe UI', Roboto, Arial; fill:#c92a2a}
+
+      @keyframes auraPulse { 0%{transform:scale(0.95)}50%{transform:scale(1.08)}100%{transform:scale(0.95)} }
+      @keyframes spikePop { 0%{transform:scale(0.92)}50%{transform:scale(1.12)}100%{transform:scale(0.92)} }
+      @keyframes boltFlash { 0%{opacity:0} 48%{opacity:0} 50%{opacity:1} 52%{opacity:0} 100%{opacity:0} }
+    </style>
+  </defs>
+
+  <!-- soft glowing aura -->
+  <g class="aura">
+    <circle cx="300" cy="190" r="140" fill="url(#aura)" />
+    <circle cx="300" cy="190" r="100" fill="url(#energy)" opacity="0.12" />
+  </g>
+
+  <!-- energy spikes (stylized, abstract) -->
+  <g class="spike" fill="#ffb37a" transform="translate(0,0)">
+    <path d="M300 50 L320 140 L280 140 Z" opacity="0.9" />
+    <path d="M230 70 L255 150 L205 150 Z" opacity="0.85" />
+    <path d="M370 70 L395 150 L345 150 Z" opacity="0.85" />
+    <path d="M180 120 L200 200 L160 200 Z" opacity="0.7" />
+    <path d="M420 120 L440 200 L400 200 Z" opacity="0.7" />
+  </g>
+
+  <!-- animated bolts that flash briefly -->
+  <g fill="#fff4b8" stroke="#ffd27a" stroke-width="2">
+    <path class="bolt" d="M300 110 L310 150 L295 150 L315 200" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="bolt" d="M260 130 L272 162 L260 162 L280 202" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.3s" />
+    <path class="bolt" d="M340 130 L352 162 L340 162 L360 202" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.6s" />
+  </g>
+
+  <!-- central character (stylized, original) -->
+  <g transform="translate(300,190) scale(1)" aria-label="hero">
+    <!-- legs -->
+    <path d="M-18 68 C-10 100 10 100 18 68 L18 92 C10 110 -10 110 -18 92 Z" fill="#2b2b2b" />
+    <!-- body -->
+    <rect x="-28" y="0" width="56" height="72" rx="16" fill="#2b2b2b" />
+    <!-- arms up (powering up pose) -->
+    <path d="M-40 10 C-58 -10 -10 -24 -2 6" stroke="#2b2b2b" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M40 10 C58 -10 10 -24 2 6" stroke="#2b2b2b" stroke-width="8" stroke-linecap="round" fill="none" />
+    <!-- head -->
+    <circle cx="0" cy="-28" r="24" fill="#2b2b2b" />
+    <!-- stylized hair spikes (abstract, non-copyright) -->
+    <g fill="#3b1f1f">
+      <path d="M-6,-52 L-28,-36 L-6,-36 Z" />
+      <path d="M6,-52 L28,-36 L6,-36 Z" />
+      <path d="M0,-56 L-14,-40 L14,-40 Z" />
+    </g>
+  </g>
+
+  <!-- subtle floating particles -->
+  <g fill="#fff7c9" opacity="0.9">
+    <circle cx="480" cy="80" r="4" style="animation:boltFlash 2.2s infinite" />
+    <circle cx="120" cy="120" r="3" style="animation:boltFlash 2.6s infinite; animation-delay:0.4s" />
+    <circle cx="200" cy="40" r="3" style="animation:boltFlash 1.9s infinite; animation-delay:0.2s" />
+  </g>
+
+  <!-- caption -->
+  <text x="300" y="390" text-anchor="middle" class="caption">Be fearless.</text>
+</svg>

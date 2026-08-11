@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Red-powered female anime character">
+  <defs>
+    <linearGradient id="bgRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4e6"/>
+      <stop offset="100%" stop-color="#ffd2d2"/>
+    </linearGradient>
+    <radialGradient id="auraRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7a7a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ff2d55" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" rx="32" fill="url(#bgRed)"/>
+  <circle cx="400" cy="250" r="180" fill="url(#auraRed)"/>
+  <circle cx="400" cy="250" r="120" fill="#fff0f0" opacity="0.6"/>
+  <path d="M280 360c20-95 50-135 120-135 70 0 100 40 120 135" fill="#ff6b6b"/>
+  <circle cx="340" cy="215" r="38" fill="#ffd7b5"/>
+  <circle cx="460" cy="215" r="38" fill="#ffd7b5"/>
+  <circle cx="340" cy="215" r="12" fill="#2d2d2d"/>
+  <circle cx="460" cy="215" r="12" fill="#2d2d2d"/>
+  <path d="M328 195c20-40 42-58 72-58 30 0 52 18 72 58" fill="#ef476f"/>
+  <path d="M305 180c20-55 55-82 95-82s75 27 95 82" fill="#ff4d6d"/>
+  <path d="M310 280c15 30 35 45 90 45s75-15 90-45" fill="#2f2f2f" opacity="0.95"/>
+  <path d="M330 302c14 16 28 24 43 24 20 0 35-8 49-24" fill="#fff" opacity="0.9"/>
+  <path d="M320 150l-36 18 24-44" fill="#ff6b6b"/>
+  <path d="M480 150l36 18-24-44" fill="#ff6b6b"/>
+  <circle cx="600" cy="170" r="8" fill="#ff3b3b"/>
+  <circle cx="640" cy="120" r="6" fill="#ff7a7a"/>
+  <circle cx="180" cy="140" r="7" fill="#ff3b3b"/>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#9b1e3f">Red Power-Up</text>
+</svg>
